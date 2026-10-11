@@ -1,0 +1,24 @@
+{
+  "$description": "Everything that changes by breakpoint lives here, so one collection = one set of modes. A string value is a reference to foundations (e.g. spacing/5).",
+  "modes": ["desktop", "tablet", "phone"],
+  "variables": {
+    "breakpoint/min-width": { "scope": ["WIDTH_HEIGHT"], "values": [1200, 800, 320] },
+    "layout/cols": { "scope": ["WIDTH_HEIGHT"], "values": [12, 8, 4] },
+    "layout/gap": { "scope": ["GAP"], "values": ["spacing/5", "spacing/5", "spacing/3"] },
+    "layout/margin": { "scope": ["GAP"], "values": ["spacing/9", "spacing/6", "spacing/5"] },
+    "container/max-width": { "scope": ["WIDTH_HEIGHT"], "values": [1600, 1300, 800] },
+    "font-size/xs": { "scope": ["FONT_SIZE"], "values": [12, 12, 12] },
+    "font-size/sm": { "scope": ["FONT_SIZE"], "values": [14, 14, 14] },
+    "font-size/md": { "scope": ["FONT_SIZE"], "values": [16, 16, 16] },
+    "font-size/lg": { "scope": ["FONT_SIZE"], "values": [18, 16, 16] },
+    "font-size/xl": { "scope": ["FONT_SIZE"], "values": [20, 18, 16] },
+    "font-size/2xl": { "scope": ["FONT_SIZE"], "values": [24, 20, 18] },
+    "font-size/3xl": { "scope": ["FONT_SIZE"], "values": [30, 24, 20] },
+    "font-size/4xl": { "scope": ["FONT_SIZE"], "values": [36, 30, 24] },
+    "font-size/5xl": { "scope": ["FONT_SIZE"], "values": [48, 36, 30] },
+    "font-size/6xl": { "scope": ["FONT_SIZE"], "values": [60, 48, 36] },
+    "font-size/7xl": { "scope": ["FONT_SIZE"], "values": [72, 60, 48] },
+    "font-size/8xl": { "scope": ["FONT_SIZE"], "values": [96, 72, 60] },
+    "font-size/9xl": { "scope": ["FONT_SIZE"], "values": [128, 96, 72] }
+  }
+}

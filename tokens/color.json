@@ -1,0 +1,25 @@
+{
+  "$description": "Color primitives. Every ramp is built by luminosity: 10 = darkest, 90 = lightest. Change `brand` and rebuild to retheme the whole framework.",
+  "steps": {
+    "10": 0.22,
+    "20": 0.32,
+    "30": 0.42,
+    "40": 0.52,
+    "50": 0.62,
+    "60": 0.71,
+    "70": 0.80,
+    "80": 0.88,
+    "90": 0.95
+  },
+  "ramps": {
+    "brand": "#2371e7",
+    "success": "#17c84d",
+    "warning": "#f2a624",
+    "danger": "#f41e1e",
+    "info": "#17b9c8"
+  },
+  "neutral": {
+    "$description": "Neutral takes the hue of `brand` with very low chroma, plus pure black (0) and white (100).",
+    "chroma": 0.015
+  }
+}
