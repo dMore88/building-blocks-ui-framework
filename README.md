@@ -8,7 +8,7 @@ A minimal, brand-agnostic base for design systems, web pages, wireframes and con
 
 | Collection | Contents |
 |---|---|
-| `color` | `brand`, `neutral`, `success`, `warning`, `danger`, `info`. Steps 10 (darkest) to 90 (lightest); `neutral` also has 0 (black) and 100 (white). Generated from one hex per ramp. |
+| `primitives` | `brand`, `neutral`, `success`, `warning`, `danger`, `info`. Steps 10 (darkest) to 90 (lightest); `neutral` also has 0 (black) and 100 (white). Generated from one hex per ramp. |
 | `foundations` | `spacing`, `sizing` (independent scales), `radius`, `border-weight`, `opacity`, `font-family`, `font-weight`. |
 | `layout` | Everything that changes by breakpoint (modes desktop / tablet / phone): grid, margins, container, `font-size`. |
 

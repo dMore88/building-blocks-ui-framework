@@ -1,7 +1,7 @@
 {
   "collections": [
     {
-      "name": "color",
+      "name": "primitives",
       "modes": [
         "value"
       ],
@@ -15,6 +15,9 @@
           ],
           "values": {
             "value": "#05193a"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-10)"
           }
         },
         {
@@ -26,6 +29,9 @@
           ],
           "values": {
             "value": "#012e70"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-20)"
           }
         },
         {
@@ -37,6 +43,9 @@
           ],
           "values": {
             "value": "#0246a3"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-30)"
           }
         },
         {
@@ -48,6 +57,9 @@
           ],
           "values": {
             "value": "#1662d1"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-40)"
           }
         },
         {
@@ -59,6 +71,9 @@
           ],
           "values": {
             "value": "#3481f8"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-50)"
           }
         },
         {
@@ -70,6 +85,9 @@
           ],
           "values": {
             "value": "#65a1ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-60)"
           }
         },
         {
@@ -81,6 +99,9 @@
           ],
           "values": {
             "value": "#97bfff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-70)"
           }
         },
         {
@@ -92,6 +113,9 @@
           ],
           "values": {
             "value": "#c1d9ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-80)"
           }
         },
         {
@@ -103,6 +127,9 @@
           ],
           "values": {
             "value": "#e5efff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-brand-90)"
           }
         },
         {
@@ -114,6 +141,9 @@
           ],
           "values": {
             "value": "#000000"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-0)"
           }
         },
         {
@@ -125,6 +155,9 @@
           ],
           "values": {
             "value": "#191b1d"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-10)"
           }
         },
         {
@@ -136,6 +169,9 @@
           ],
           "values": {
             "value": "#303338"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-20)"
           }
         },
         {
@@ -147,6 +183,9 @@
           ],
           "values": {
             "value": "#494d54"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-30)"
           }
         },
         {
@@ -158,6 +197,9 @@
           ],
           "values": {
             "value": "#646971"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-40)"
           }
         },
         {
@@ -169,6 +211,9 @@
           ],
           "values": {
             "value": "#81878f"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-50)"
           }
         },
         {
@@ -180,6 +225,9 @@
           ],
           "values": {
             "value": "#9ca2ab"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-60)"
           }
         },
         {
@@ -191,6 +239,9 @@
           ],
           "values": {
             "value": "#b9bec6"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-70)"
           }
         },
         {
@@ -202,6 +253,9 @@
           ],
           "values": {
             "value": "#d3d8df"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-80)"
           }
         },
         {
@@ -213,6 +267,9 @@
           ],
           "values": {
             "value": "#ebeff4"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-90)"
           }
         },
         {
@@ -224,6 +281,9 @@
           ],
           "values": {
             "value": "#ffffff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-neutral-100)"
           }
         },
         {
@@ -235,6 +295,9 @@
           ],
           "values": {
             "value": "#002206"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-10)"
           }
         },
         {
@@ -246,6 +309,9 @@
           ],
           "values": {
             "value": "#003f11"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-20)"
           }
         },
         {
@@ -257,6 +323,9 @@
           ],
           "values": {
             "value": "#005e1e"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-30)"
           }
         },
         {
@@ -268,6 +337,9 @@
           ],
           "values": {
             "value": "#007f2c"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-40)"
           }
         },
         {
@@ -279,6 +351,9 @@
           ],
           "values": {
             "value": "#00a23a"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-50)"
           }
         },
         {
@@ -290,6 +365,9 @@
           ],
           "values": {
             "value": "#1bc14b"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-60)"
           }
         },
         {
@@ -301,6 +379,9 @@
           ],
           "values": {
             "value": "#5ddc73"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-70)"
           }
         },
         {
@@ -312,6 +393,9 @@
           ],
           "values": {
             "value": "#8ef39a"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-80)"
           }
         },
         {
@@ -323,6 +407,9 @@
           ],
           "values": {
             "value": "#c9ffcd"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-success-90)"
           }
         },
         {
@@ -334,6 +421,9 @@
           ],
           "values": {
             "value": "#271700"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-10)"
           }
         },
         {
@@ -345,6 +435,9 @@
           ],
           "values": {
             "value": "#472d00"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-20)"
           }
         },
         {
@@ -356,6 +449,9 @@
           ],
           "values": {
             "value": "#694400"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-30)"
           }
         },
         {
@@ -367,6 +463,9 @@
           ],
           "values": {
             "value": "#8e5e00"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-40)"
           }
         },
         {
@@ -378,6 +477,9 @@
           ],
           "values": {
             "value": "#b47800"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-50)"
           }
         },
         {
@@ -389,6 +491,9 @@
           ],
           "values": {
             "value": "#d89100"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-60)"
           }
         },
         {
@@ -400,6 +505,9 @@
           ],
           "values": {
             "value": "#f2af4d"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-70)"
           }
         },
         {
@@ -411,6 +519,9 @@
           ],
           "values": {
             "value": "#ffce8d"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-80)"
           }
         },
         {
@@ -422,6 +533,9 @@
           ],
           "values": {
             "value": "#ffebd2"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-warning-90)"
           }
         },
         {
@@ -433,6 +547,9 @@
           ],
           "values": {
             "value": "#390202"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-10)"
           }
         },
         {
@@ -444,6 +561,9 @@
           ],
           "values": {
             "value": "#660002"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-20)"
           }
         },
         {
@@ -455,6 +575,9 @@
           ],
           "values": {
             "value": "#950006"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-30)"
           }
         },
         {
@@ -466,6 +589,9 @@
           ],
           "values": {
             "value": "#c6000b"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-40)"
           }
         },
         {
@@ -477,6 +603,9 @@
           ],
           "values": {
             "value": "#f52020"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-50)"
           }
         },
         {
@@ -488,6 +617,9 @@
           ],
           "values": {
             "value": "#ff6c5d"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-60)"
           }
         },
         {
@@ -499,6 +631,9 @@
           ],
           "values": {
             "value": "#ffa194"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-70)"
           }
         },
         {
@@ -510,6 +645,9 @@
           ],
           "values": {
             "value": "#ffc8c0"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-80)"
           }
         },
         {
@@ -521,6 +659,9 @@
           ],
           "values": {
             "value": "#ffe9e5"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-danger-90)"
           }
         },
         {
@@ -532,6 +673,9 @@
           ],
           "values": {
             "value": "#001f23"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-10)"
           }
         },
         {
@@ -543,6 +687,9 @@
           ],
           "values": {
             "value": "#003b40"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-20)"
           }
         },
         {
@@ -554,6 +701,9 @@
           ],
           "values": {
             "value": "#005860"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-30)"
           }
         },
         {
@@ -565,6 +715,9 @@
           ],
           "values": {
             "value": "#007781"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-40)"
           }
         },
         {
@@ -576,6 +729,9 @@
           ],
           "values": {
             "value": "#0098a5"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-50)"
           }
         },
         {
@@ -587,6 +743,9 @@
           ],
           "values": {
             "value": "#21b6c4"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-60)"
           }
         },
         {
@@ -598,6 +757,9 @@
           ],
           "values": {
             "value": "#5fd1de"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-70)"
           }
         },
         {
@@ -609,6 +771,9 @@
           ],
           "values": {
             "value": "#8fe9f3"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-80)"
           }
         },
         {
@@ -620,6 +785,9 @@
           ],
           "values": {
             "value": "#c8f9ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-color-info-90)"
           }
         }
       ]
@@ -638,6 +806,9 @@
           ],
           "values": {
             "value": 2
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-1)"
           }
         },
         {
@@ -648,6 +819,9 @@
           ],
           "values": {
             "value": 4
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-2)"
           }
         },
         {
@@ -658,6 +832,9 @@
           ],
           "values": {
             "value": 8
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-3)"
           }
         },
         {
@@ -668,6 +845,9 @@
           ],
           "values": {
             "value": 12
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-4)"
           }
         },
         {
@@ -678,6 +858,9 @@
           ],
           "values": {
             "value": 16
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-5)"
           }
         },
         {
@@ -688,6 +871,9 @@
           ],
           "values": {
             "value": 24
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-6)"
           }
         },
         {
@@ -698,6 +884,9 @@
           ],
           "values": {
             "value": 32
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-7)"
           }
         },
         {
@@ -708,6 +897,9 @@
           ],
           "values": {
             "value": 40
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-8)"
           }
         },
         {
@@ -718,6 +910,9 @@
           ],
           "values": {
             "value": 48
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-9)"
           }
         },
         {
@@ -728,6 +923,9 @@
           ],
           "values": {
             "value": 64
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-10)"
           }
         },
         {
@@ -738,6 +936,9 @@
           ],
           "values": {
             "value": 80
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-11)"
           }
         },
         {
@@ -748,6 +949,9 @@
           ],
           "values": {
             "value": 96
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-spacing-12)"
           }
         },
         {
@@ -758,6 +962,9 @@
           ],
           "values": {
             "value": 4
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-1)"
           }
         },
         {
@@ -768,6 +975,9 @@
           ],
           "values": {
             "value": 8
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-2)"
           }
         },
         {
@@ -778,6 +988,9 @@
           ],
           "values": {
             "value": 12
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-3)"
           }
         },
         {
@@ -788,6 +1001,9 @@
           ],
           "values": {
             "value": 16
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-4)"
           }
         },
         {
@@ -798,6 +1014,9 @@
           ],
           "values": {
             "value": 20
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-5)"
           }
         },
         {
@@ -808,6 +1027,9 @@
           ],
           "values": {
             "value": 24
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-6)"
           }
         },
         {
@@ -818,6 +1040,9 @@
           ],
           "values": {
             "value": 32
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-7)"
           }
         },
         {
@@ -828,6 +1053,9 @@
           ],
           "values": {
             "value": 40
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-8)"
           }
         },
         {
@@ -838,6 +1066,9 @@
           ],
           "values": {
             "value": 48
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-9)"
           }
         },
         {
@@ -848,6 +1079,9 @@
           ],
           "values": {
             "value": 56
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-10)"
           }
         },
         {
@@ -858,6 +1092,9 @@
           ],
           "values": {
             "value": 64
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-11)"
           }
         },
         {
@@ -868,6 +1105,9 @@
           ],
           "values": {
             "value": 80
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-12)"
           }
         },
         {
@@ -878,6 +1118,9 @@
           ],
           "values": {
             "value": 96
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-13)"
           }
         },
         {
@@ -888,6 +1131,9 @@
           ],
           "values": {
             "value": 128
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-14)"
           }
         },
         {
@@ -898,6 +1144,9 @@
           ],
           "values": {
             "value": 160
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-15)"
           }
         },
         {
@@ -908,6 +1157,9 @@
           ],
           "values": {
             "value": 256
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-sizing-16)"
           }
         },
         {
@@ -918,6 +1170,9 @@
           ],
           "values": {
             "value": 2
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-radius-1)"
           }
         },
         {
@@ -928,6 +1183,9 @@
           ],
           "values": {
             "value": 4
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-radius-2)"
           }
         },
         {
@@ -938,6 +1196,9 @@
           ],
           "values": {
             "value": 8
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-radius-3)"
           }
         },
         {
@@ -948,6 +1209,9 @@
           ],
           "values": {
             "value": 16
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-radius-4)"
           }
         },
         {
@@ -958,6 +1222,9 @@
           ],
           "values": {
             "value": 9999
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-radius-full)"
           }
         },
         {
@@ -968,6 +1235,9 @@
           ],
           "values": {
             "value": 1
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-border-weight-1)"
           }
         },
         {
@@ -978,6 +1248,9 @@
           ],
           "values": {
             "value": 2
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-border-weight-2)"
           }
         },
         {
@@ -988,6 +1261,9 @@
           ],
           "values": {
             "value": 4
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-border-weight-3)"
           }
         },
         {
@@ -998,6 +1274,9 @@
           ],
           "values": {
             "value": 10
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-10)"
           }
         },
         {
@@ -1008,6 +1287,9 @@
           ],
           "values": {
             "value": 20
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-20)"
           }
         },
         {
@@ -1018,6 +1300,9 @@
           ],
           "values": {
             "value": 30
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-30)"
           }
         },
         {
@@ -1028,6 +1313,9 @@
           ],
           "values": {
             "value": 40
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-40)"
           }
         },
         {
@@ -1038,6 +1326,9 @@
           ],
           "values": {
             "value": 50
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-50)"
           }
         },
         {
@@ -1048,6 +1339,9 @@
           ],
           "values": {
             "value": 60
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-60)"
           }
         },
         {
@@ -1058,6 +1352,9 @@
           ],
           "values": {
             "value": 70
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-70)"
           }
         },
         {
@@ -1068,6 +1365,9 @@
           ],
           "values": {
             "value": 80
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-80)"
           }
         },
         {
@@ -1078,6 +1378,9 @@
           ],
           "values": {
             "value": 90
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-opacity-90)"
           }
         },
         {
@@ -1088,6 +1391,9 @@
           ],
           "values": {
             "value": "Inter"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-family-heading)"
           }
         },
         {
@@ -1098,6 +1404,9 @@
           ],
           "values": {
             "value": "Inter"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-family-body)"
           }
         },
         {
@@ -1108,6 +1417,9 @@
           ],
           "values": {
             "value": "DM Mono"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-family-mono)"
           }
         },
         {
@@ -1118,6 +1430,9 @@
           ],
           "values": {
             "value": "Light"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-weight-light)"
           }
         },
         {
@@ -1128,6 +1443,9 @@
           ],
           "values": {
             "value": "Regular"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-weight-regular)"
           }
         },
         {
@@ -1138,6 +1456,9 @@
           ],
           "values": {
             "value": "Medium"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-weight-medium)"
           }
         },
         {
@@ -1148,6 +1469,9 @@
           ],
           "values": {
             "value": "Semi Bold"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-weight-semibold)"
           }
         },
         {
@@ -1158,6 +1482,9 @@
           ],
           "values": {
             "value": "Bold"
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-weight-bold)"
           }
         }
       ]
@@ -1185,13 +1512,14 @@
         {
           "name": "layout/cols",
           "type": "FLOAT",
-          "scopes": [
-            "WIDTH_HEIGHT"
-          ],
+          "scopes": [],
           "values": {
             "desktop": 12,
             "tablet": 8,
             "phone": 4
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-layout-cols)"
           }
         },
         {
@@ -1219,6 +1547,9 @@
                 "name": "spacing/3"
               }
             }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-layout-gap)"
           }
         },
         {
@@ -1246,6 +1577,9 @@
                 "name": "spacing/5"
               }
             }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-layout-margin)"
           }
         },
         {
@@ -1258,6 +1592,9 @@
             "desktop": 1600,
             "tablet": 1300,
             "phone": 800
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-container-max-width)"
           }
         },
         {
@@ -1270,6 +1607,9 @@
             "desktop": 12,
             "tablet": 12,
             "phone": 12
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-xs)"
           }
         },
         {
@@ -1282,6 +1622,9 @@
             "desktop": 14,
             "tablet": 14,
             "phone": 14
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-sm)"
           }
         },
         {
@@ -1294,6 +1637,9 @@
             "desktop": 16,
             "tablet": 16,
             "phone": 16
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-md)"
           }
         },
         {
@@ -1306,6 +1652,9 @@
             "desktop": 18,
             "tablet": 16,
             "phone": 16
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-lg)"
           }
         },
         {
@@ -1318,6 +1667,9 @@
             "desktop": 20,
             "tablet": 18,
             "phone": 16
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-xl)"
           }
         },
         {
@@ -1330,6 +1682,9 @@
             "desktop": 24,
             "tablet": 20,
             "phone": 18
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-2xl)"
           }
         },
         {
@@ -1342,6 +1697,9 @@
             "desktop": 30,
             "tablet": 24,
             "phone": 20
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-3xl)"
           }
         },
         {
@@ -1354,6 +1712,9 @@
             "desktop": 36,
             "tablet": 30,
             "phone": 24
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-4xl)"
           }
         },
         {
@@ -1366,6 +1727,9 @@
             "desktop": 48,
             "tablet": 36,
             "phone": 30
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-5xl)"
           }
         },
         {
@@ -1378,6 +1742,9 @@
             "desktop": 60,
             "tablet": 48,
             "phone": 36
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-6xl)"
           }
         },
         {
@@ -1390,6 +1757,9 @@
             "desktop": 72,
             "tablet": 60,
             "phone": 48
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-7xl)"
           }
         },
         {
@@ -1402,6 +1772,9 @@
             "desktop": 96,
             "tablet": 72,
             "phone": 60
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-8xl)"
           }
         },
         {
@@ -1414,6 +1787,9 @@
             "desktop": 128,
             "tablet": 96,
             "phone": 72
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-font-size-9xl)"
           }
         }
       ]

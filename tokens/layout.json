@@ -3,7 +3,7 @@
   "modes": ["desktop", "tablet", "phone"],
   "variables": {
     "breakpoint/min-width": { "scope": ["WIDTH_HEIGHT"], "values": [1200, 800, 320] },
-    "layout/cols": { "scope": ["WIDTH_HEIGHT"], "values": [12, 8, 4] },
+    "layout/cols": { "scope": [], "values": [12, 8, 4] },
     "layout/gap": { "scope": ["GAP"], "values": ["spacing/5", "spacing/5", "spacing/3"] },
     "layout/margin": { "scope": ["GAP"], "values": ["spacing/9", "spacing/6", "spacing/5"] },
     "container/max-width": { "scope": ["WIDTH_HEIGHT"], "values": [1600, 1300, 800] },

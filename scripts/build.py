@@ -93,7 +93,8 @@ def build_model():
 
     colors = build_colors(color_cfg)
     color_vars = [
-        {"name": f"{ramp}/{step}", "type": "COLOR", "scopes": COLOR_SCOPES, "values": {"value": hex_}}
+        {"name": f"{ramp}/{step}", "type": "COLOR", "scopes": COLOR_SCOPES, "values": {"value": hex_},
+         "codeSyntax": {"WEB": f"var({css_name('color', ramp, step)})"}}
         for ramp, steps in colors.items()
         for step, hex_ in steps.items()
     ]
@@ -109,7 +110,8 @@ def build_model():
                 t, v = "STRING", val["figma"]
             else:
                 t, v = "FLOAT", val
-            found_vars.append({"name": f"{group}/{key}", "type": t, "scopes": spec["scope"], "values": {"value": v}})
+            found_vars.append({"name": f"{group}/{key}", "type": t, "scopes": spec["scope"], "values": {"value": v},
+                               "codeSyntax": {"WEB": f"var({css_name(group, key)})"}})
 
     modes = layout["modes"]
     layout_vars = []
@@ -118,7 +120,10 @@ def build_model():
         for mode, val in zip(modes, spec["values"]):
             values[mode] = {"alias": {"collection": "foundations", "name": val}} if isinstance(val, str) else val
         is_float = not any(isinstance(v, str) for v in spec["values"])
-        layout_vars.append({"name": name, "type": "FLOAT", "scopes": spec["scope"], "values": values, "_ref": not is_float})
+        var = {"name": name, "type": "FLOAT", "scopes": spec["scope"], "values": values, "_ref": not is_float}
+        if not name.startswith("breakpoint/"):  # breakpoints are only used in media queries, no CSS variable
+            var["codeSyntax"] = {"WEB": f"var({css_name(name)})"}
+        layout_vars.append(var)
 
     for v in layout_vars:
         v.pop("_ref")
@@ -131,7 +136,7 @@ def build_model():
 
     return {
         "collections": [
-            {"name": "color", "modes": ["value"], "variables": color_vars},
+            {"name": "primitives", "modes": ["value"], "variables": color_vars},
             {"name": "foundations", "modes": ["value"], "variables": found_vars},
             {"name": "layout", "modes": modes, "variables": layout_vars},
         ]
