@@ -168,6 +168,12 @@ def write_css(colors, found, layout):
                 lines.append(f"  {n}: {val / 100:g};")
             else:
                 lines.append(f"  {n}: {val}px;")
+    elev = load("elevation.json")
+    shadow = shadow_hex(elev, colors)
+    r, g, b = (int(shadow[i:i + 2], 16) for i in (1, 3, 5))
+    for key, layers in elev["values"].items():
+        parts = [f"{l['x']}px {l['y']}px {l['blur']}px {l['spread']}px rgba({r}, {g}, {b}, {l['alpha']:g})" for l in layers]
+        lines.append(f"  {css_name('elevation', key)}: {', '.join(parts)};")
     lines.append("}")
 
     modes = layout["modes"]
@@ -199,6 +205,25 @@ def write_css(colors, found, layout):
         lines += decls(i)
         lines.append("}" if pos == 0 else "}\n}")
     (ROOT / "dist" / "tokens.css").write_text("\n".join(lines) + "\n")
+
+
+def shadow_hex(elev, colors):
+    ramp, step = elev["color"].split("/")
+    return colors[ramp][step]
+
+
+def write_effect_styles(colors):
+    elev = load("elevation.json")
+    c = shadow_hex(elev, colors)
+    rgb = {k: round(int(c[i:i + 2], 16) / 255, 4) for k, i in (("r", 1), ("g", 3), ("b", 5))}
+    styles = [
+        {"name": f"elevation/{key}", "effects": [
+            {"type": "DROP_SHADOW", "color": {**rgb, "a": l["alpha"]}, "offset": {"x": l["x"], "y": l["y"]},
+             "radius": l["blur"], "spread": l["spread"], "showShadowBehindNode": l["showBehind"]}
+            for l in layers]}
+        for key, layers in elev["values"].items()
+    ]
+    (ROOT / "dist" / "figma-effect-styles.json").write_text(json.dumps(styles, indent=2) + "\n")
 
 
 def write_scales_doc():
@@ -275,6 +300,7 @@ def main():
     (ROOT / "docs").mkdir(exist_ok=True)
     (ROOT / "dist" / "figma-variables.json").write_text(json.dumps(model, indent=2) + "\n")
     write_css(colors, found, layout)
+    write_effect_styles(colors)
     write_scales_doc()
     write_typography_doc()
     counts = {c["name"]: len(c["variables"]) for c in model["collections"]}

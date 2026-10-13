@@ -1,0 +1,88 @@
+{
+  "$description": "Drop shadows, extracted from the Figma effect styles elevation/1x..5x. Figma keeps these as styles (not variables), so this file is the source for CSS and for rebuilding the styles. One shared color, a reference to a primitive (resolved at build time); 1x is the lowest, 5x the highest. Figma cannot keep a layer opacity when the shadow color is bound to a variable, so in Figma the color is applied as a plain value.",
+  "color": "neutral/10",
+  "values": {
+    "1x": [
+      {
+        "x": 0,
+        "y": 1,
+        "blur": 2,
+        "spread": 0,
+        "alpha": 0.12,
+        "showBehind": false
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "blur": 3,
+        "spread": 0,
+        "alpha": 0.24,
+        "showBehind": true
+      }
+    ],
+    "2x": [
+      {
+        "x": 0,
+        "y": 2,
+        "blur": 4,
+        "spread": 0,
+        "alpha": 0.12,
+        "showBehind": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "blur": 6,
+        "spread": 0,
+        "alpha": 0.15,
+        "showBehind": false
+      }
+    ],
+    "3x": [
+      {
+        "x": 0,
+        "y": 3,
+        "blur": 6,
+        "spread": 0,
+        "alpha": 0.1,
+        "showBehind": true
+      },
+      {
+        "x": 0,
+        "y": 10,
+        "blur": 20,
+        "spread": 0,
+        "alpha": 0.15,
+        "showBehind": false
+      }
+    ],
+    "4x": [
+      {
+        "x": 0,
+        "y": 5,
+        "blur": 10,
+        "spread": 0,
+        "alpha": 0.05,
+        "showBehind": true
+      },
+      {
+        "x": 0,
+        "y": 15,
+        "blur": 25,
+        "spread": 0,
+        "alpha": 0.15,
+        "showBehind": false
+      }
+    ],
+    "5x": [
+      {
+        "x": 0,
+        "y": 20,
+        "blur": 40,
+        "spread": 0,
+        "alpha": 0.2,
+        "showBehind": true
+      }
+    ]
+  }
+}

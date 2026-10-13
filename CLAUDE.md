@@ -18,6 +18,8 @@ Personal, brand-agnostic framework: a Figma components library (file `Building-B
 - Documentation frames in Figma were updated to the new structure: spacing (12 steps), sizing (16), radius (1-4, full), border-weight (1-3), color ramps (9 swatches, bound to the `primitives` collection), layout text. The `scale progression` frame was removed. Semantic frames (Backgrounds, Interactive states, Icon fill, Border color, Opacity, Text color variables) are kept only as usage references, labeled with the primitive each swatch uses; their role names are not variables.
 - Doc rows for sizing bind only one dimension (height) because the sample components lock proportions.
 
+- Elevations (shadows) are Figma effect styles, not variables. Their source of truth is `tokens/elevation.json`, extracted from Figma; they build to CSS as `--bb-elevation-*` and to `dist/figma-effect-styles.json`. Shadow color is `neutral/10` (a reference resolved at build). In Figma it is a plain value (not bound): binding a variable to a shadow color forces the variable's alpha and loses each layer's opacity.
+
 ## Workflow
 
 - Edit `tokens/*.json`, then run `python3 scripts/build.py`. Never hand-edit `dist/` or `docs/scales.md`.

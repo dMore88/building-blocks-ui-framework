@@ -1,0 +1,171 @@
+[
+  {
+    "name": "elevation/1x",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.12
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "radius": 2,
+        "spread": 0,
+        "showShadowBehindNode": false
+      },
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.24
+        },
+        "offset": {
+          "x": 0,
+          "y": 1
+        },
+        "radius": 3,
+        "spread": 0,
+        "showShadowBehindNode": true
+      }
+    ]
+  },
+  {
+    "name": "elevation/2x",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.12
+        },
+        "offset": {
+          "x": 0,
+          "y": 2
+        },
+        "radius": 4,
+        "spread": 0,
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.15
+        },
+        "offset": {
+          "x": 0,
+          "y": 3
+        },
+        "radius": 6,
+        "spread": 0,
+        "showShadowBehindNode": false
+      }
+    ]
+  },
+  {
+    "name": "elevation/3x",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.1
+        },
+        "offset": {
+          "x": 0,
+          "y": 3
+        },
+        "radius": 6,
+        "spread": 0,
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.15
+        },
+        "offset": {
+          "x": 0,
+          "y": 10
+        },
+        "radius": 20,
+        "spread": 0,
+        "showShadowBehindNode": false
+      }
+    ]
+  },
+  {
+    "name": "elevation/4x",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.05
+        },
+        "offset": {
+          "x": 0,
+          "y": 5
+        },
+        "radius": 10,
+        "spread": 0,
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.15
+        },
+        "offset": {
+          "x": 0,
+          "y": 15
+        },
+        "radius": 25,
+        "spread": 0,
+        "showShadowBehindNode": false
+      }
+    ]
+  },
+  {
+    "name": "elevation/5x",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "color": {
+          "r": 0.098,
+          "g": 0.1059,
+          "b": 0.1137,
+          "a": 0.2
+        },
+        "offset": {
+          "x": 0,
+          "y": 20
+        },
+        "radius": 40,
+        "spread": 0,
+        "showShadowBehindNode": true
+      }
+    ]
+  }
+]
